@@ -10,7 +10,7 @@ docker compose up -d
 ```
 
 ### 2. 作業スペースへのアクセス
-- ブラウザでhttp://localhost:8888/へアクセス
+- ブラウザで http://localhost:8888/ へアクセス
 
 ### 3. Dockerコンテナの停止
 ```bash
