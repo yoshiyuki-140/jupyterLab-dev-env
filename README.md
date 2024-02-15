@@ -25,8 +25,7 @@ docker compose down
 │   ├── Dockerfile          : JupyterLabの環境を構築するためのDockerfile
 │   └── root_jupyter        : JupyterLabの設定を永続化させるためのフォルダ
 ├── workspace               : JupyterLabの作業スペース (外部からファイルを追加するときはここに追加する)
-├── docker-compose.yml      : Dockerコンテナの設定ファイル
-└── up-down.cmd             : Dockerコンテナの起動と停止を行うバッチファイル
+└── docker-compose.yml      : Dockerコンテナの設定ファイル
 ```
 
 ## 参考文献
