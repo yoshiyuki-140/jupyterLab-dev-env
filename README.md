@@ -1,5 +1,5 @@
 # JupyterLab-dev-env
-My JupyterLab テンプレート
+このリポジトリは自分用のJupyterLab開発環境テンプレートです。
 
 
 ## 使い方
