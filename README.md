@@ -1,21 +1,31 @@
 # JupyterLab-dev-env
-JupyterLabの開発環境
+My JupyterLab テンプレート
 
 
 ## 使い方
 
-### 1. Dockerコンテナの起動
-```bash
-docker compose up -d
-```
+1. このリポジトリをクローン
+    ```bash
+    git clone https://github.com/yoshiyuki-140/jupyterLab-dev-env
+    ```
 
-### 2. 作業スペースへのアクセス
-- ブラウザで http://localhost:8888/ へアクセス
+1. リポジトリへ移動
+    ```bash
+    cd jupyterLab-dev-env
+    ```
 
-### 3. Dockerコンテナの停止
-```bash
-docker compose down
-```
+1. Dockerコンテナの起動
+    ```bash
+    docker compose up -d
+    ```
+
+1. 作業スペースへのアクセス
+   - ブラウザで http://localhost:8888/ へアクセス
+
+1. Dockerコンテナの停止
+    ```bash
+    docker compose down
+    ```
 
 
 ## フォルダ説明
