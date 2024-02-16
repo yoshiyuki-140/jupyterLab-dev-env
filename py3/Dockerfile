@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.11.8-bullseye
 ARG DEBIAN_FRONTEND=noninteractive
 
 # パッケージの追加とタイムゾーンの設定
@@ -27,21 +27,21 @@ RUN python3 -m pip install --upgrade pip \
 # 基本パッケージ
 # Pythonでよく利用する基本的なパッケージです
 # JupyterLabの動作には影響しないので、必要に応じてカスタマイズしてください
-# RUN pip install --no-cache-dir \
-    # numpy \
-    # pandas \
-    # scipy \
-    # scikit-learn \
-    # pycaret \
-    # matplotlib \
-    # japanize_matplotlib \
-    # mlxtend \
-    # seaborn \
-    # plotly \
-    # requests \
-    # beautifulsoup4 \
-    # Pillow \
-    # opencv-python
+RUN pip install --no-cache-dir \
+    numpy \
+    pandas \
+    scipy \
+    scikit-learn \
+    pycaret \
+    matplotlib \
+    japanize_matplotlib \
+    mlxtend \
+    seaborn \
+    plotly \
+    requests \
+    beautifulsoup4 \
+    Pillow \
+    opencv-python
 
 # 追加パッケージ（必要に応じて）
 # 各環境に特化したパッケージがある場合、この部分に追加します
