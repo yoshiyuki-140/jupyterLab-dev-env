@@ -40,6 +40,6 @@
 
 ## 参考文献
 - [DockerでJupyterLabの環境を作ろう](https://www.idnet.co.jp/column/page_187.html)
-    > このリポジトリでは、ベースイメージのバージョンを3.11.8のdebian系にしている。
-    
+    > 本リポジトリでは、ベースイメージのバージョン3.9から3.11.8のDebian系にしている。
+- [Docker実践ガイド: コンテナ環境の構築・運用・活用](https://ndlsearch.ndl.go.jp/books/R100000002-I032642811)    
 
