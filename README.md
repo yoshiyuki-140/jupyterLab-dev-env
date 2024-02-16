@@ -38,6 +38,12 @@
 └── docker-compose.yml      : Dockerコンテナの設定ファイル
 ```
 
+### 重要なフォルダ
+- `workspace` : 
+    JupyterLabの作業スペース、データセットやソースコードの置き場所
+- `py3/root_jupyter` : 
+    JupyterLabの設定ファイルが入っている、dockerコンテナを落としてもここにファイルがあるのでフォントの変更やフォーマッターの指定等の設定は消えない
+
 ## 参考文献
 - [DockerでJupyterLabの環境を作ろう](https://www.idnet.co.jp/column/page_187.html)
     > 本リポジトリでは、ベースイメージのバージョン3.9から3.11.8のDebian系にしている。
