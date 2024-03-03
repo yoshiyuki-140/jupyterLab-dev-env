@@ -31,7 +31,7 @@
 ## フォルダ説明
 ```
 .
-├── py3                     : Python3のJupyterLab環境
+├── conf                    : Python3のJupyterLab環境
 │   ├── Dockerfile          : JupyterLabの環境を構築するためのDockerfile
 │   └── root_jupyter        : JupyterLabの設定を永続化させるためのフォルダ
 ├── workspace               : JupyterLabの作業スペース (外部からファイルを追加するときはここに追加する)
@@ -41,7 +41,7 @@
 ### 重要なフォルダ
 - `workspace` : 
     JupyterLabの作業スペース、データセットやソースコードの置き場所
-- `py3/root_jupyter` : 
+- `conf/root_jupyter` : 
     JupyterLabの設定ファイルが入っている、dockerコンテナを落としてもここにファイルがあるのでフォントの変更やフォーマッターの指定等の設定は消えない
 
 ## 参考文献
