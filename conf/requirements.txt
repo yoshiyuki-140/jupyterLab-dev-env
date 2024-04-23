@@ -2,6 +2,7 @@ black
 jupyterlab
 jupyterlab_code_formatter
 jupyterlab-git
+jupyterlab-vim
 lckr-jupyterlab-variableinspector
 jupyterlab_widgets
 ipywidgets
